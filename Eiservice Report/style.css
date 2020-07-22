@@ -1,0 +1,109 @@
+.container {
+    width: 90%;
+    margin: auto;
+  }
+  .container .section-start {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+  .container .section-start .company-info .name {
+    font-size: 20px;
+  }
+  .container .section-start .company-info .others-info p {
+    margin: 0;
+  }
+  .container .section-start .invoice-info {
+    text-align: right;
+  }
+  .container .section-start .invoice-info h1 {
+    color: grey;
+  }
+  .container .section-start .invoice-info .invoice-table {
+    float: right;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  .container .section-start .invoice-info .invoice-table tr {
+    margin-bottom: 1px solid #eaeaea;
+  }
+  .container .section-start .invoice-info .invoice-table tr:nth-child(odd) {
+    font-weight: bold;
+    background: #cecece;
+  }
+  .container .section-start .invoice-info .invoice-table td {
+    padding: 5px 30px;
+    border: 1px solid black;
+  }
+  .container .section-billing-shipping {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 46%;
+  }
+  .container .section-billing-shipping .th-data {
+    background: #cecece;
+    border: 1px solid black;
+    padding: 2px;
+    padding-left: 10px;
+  }
+  .container .section-billing-shipping .list-section p {
+    margin: 0;
+  }
+  .container .billing-description-section {
+    margin-top: 120px;
+  }
+  .container .billing-description-section .billing-description-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .container .billing-description-section .billing-description-table th {
+    background: #cecece;
+    border: 1px solid black;
+    padding: 5px 0;
+    width: 100%;
+  }
+  .container .billing-description-section .billing-description-table td {
+    width: 100%;
+  }
+  .container .billing-description-section .billing-description-table .first-col {
+    padding-right: 750px;
+  }
+  .container .billing-description-section .billing-description-table .second-col {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .container .billing-description-section .billing-description-table .third-col {
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container .billing-description-section .billing-description-table .fourth-col {
+    text-align: right;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .container .billing-description-section .billing-description-table .final-row td {
+    border: 1px solid black;
+    padding: 5px 0;
+  }
+  .container .billing-description-section .billing-description-table .final-row .first-col {
+    text-align: center;
+    font-style: italic;
+  }
+  .container .billing-description-section .billing-description-table .final-row .common-col {
+    border: none;
+    border-top: 1px solid black;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .container .billing-description-section .billing-description-table .final-row .last-col {
+    border-left: none;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  
+  /*# sourceMappingURL=Test.css.map */
+  
