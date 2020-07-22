@@ -1,0 +1,202 @@
+* {
+  font-family: "Mukta", sans-serif;
+}
+
+nav {
+  border-bottom: 1px solid #EAEAEA;
+}
+nav .nav-div-cls {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+nav .nav-div-cls .nav-links {
+  padding-top: 15px;
+  font-size: 16px;
+}
+nav .nav-div-cls .nav-main-links {
+  background-color: #f5f4ef;
+  text-align: center;
+}
+nav .nav-div-cls .nav-main-links li {
+  margin-right: 20px;
+}
+nav .nav-div-cls .nav-main-links a:hover {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 4px;
+  background: #403235;
+  color: white;
+}
+nav .nav-div-cls .nav-main-links .active {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 4px;
+  background: #403235;
+  color: white;
+}
+nav .nav-div-cls .nav-min-links {
+  padding-top: 15px;
+  background-color: #ece8e8;
+}
+nav .nav-div-cls .nav-min-links li {
+  margin-right: 5px;
+}
+nav .nav-div-cls img {
+  width: 40%;
+  margin-left: 50px;
+  padding: 10px;
+}
+nav .nav-div-cls li {
+  list-style-type: none;
+  display: inline;
+}
+nav .nav-div-cls li a {
+  text-decoration: none;
+  color: #050505;
+}
+nav .nav-div-cls li a:hover {
+  text-decoration: underline;
+}
+nav .nav-div-cls li a .a-cls-one {
+  font-size: 16px;
+}
+nav .nav-div-cls li .a-cls-two {
+  font-size: 14px;
+}
+
+.footer-upper-cls {
+  border-bottom: 1px solid #EAEAEA;
+  background: #ece8e8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-upper-cls li {
+  list-style: none;
+  display: inline;
+}
+.footer-upper-cls li a {
+  text-decoration: none;
+}
+.footer-upper-cls .icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.footer-upper-cls .fb {
+  color: #4267b2;
+}
+.footer-upper-cls .twt {
+  color: #1da1f2;
+}
+.footer-upper-cls .yt {
+  color: #ff4e45;
+}
+
+.get-in-touch__links {
+  position: relative;
+  right: 40px;
+}
+
+.footer-lower-cls {
+  background: #d5dedb;
+}
+.footer-lower-cls .footer-txt {
+  padding: 8px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.footer-cls {
+  padding: 8px 40px;
+  vertical-align: middle;
+}
+
+.footer-section-title,
+.get-in-touch__title {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer-group-info {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+label {
+  font-size: 14px;
+  display: inherit !important;
+}
+
+input {
+  width: 50%;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.btn-submit {
+  border-radius: 5px;
+}
+
+.footer-section-links {
+  position: relative;
+  right: 40px;
+}
+.footer-section-links li {
+  display: block;
+}
+.footer-section-links a {
+  color: black;
+  font-size: 16px;
+  line-height: 30px;
+}
+.footer-section-links a:hover {
+  color: #0f9219;
+}
+
+.get-in-touch {
+  margin-top: 30px;
+}
+
+.middle-body {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+.middle-body .pm-section {
+  border: 1px solid #EAEAEA;
+}
+.middle-body .pr-section {
+  border: 1px solid #EAEAEA;
+}
+.middle-body .talk {
+  font-weight: bold;
+  margin: 5px;
+  border-bottom: 1px solid #b8b8b8;
+}
+.middle-body .message {
+  padding: 5px;
+}
+.middle-body .img-1 {
+  width: 100%;
+}
+.middle-body .car-img {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.middle-body .carousel {
+  background-color: white;
+  height: 517px;
+}
+
+#name, #email, button {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */

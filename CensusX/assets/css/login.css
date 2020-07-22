@@ -1,0 +1,23 @@
+.login-box {
+  text-align: center;
+  margin-top: 30px;
+}
+
+input {
+  width: 30%;
+}
+
+#password {
+  font-size: 14px;
+}
+
+.btn-submit {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer {
+  margin-top: 26px;
+}
+
+/*# sourceMappingURL=login.css.map */
