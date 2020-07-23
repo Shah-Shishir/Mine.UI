@@ -21,3 +21,7 @@ let goToNextSection = (e) => {
     singleForms[index+1].style.display = "block";
     singleForms[index].style.display = "none";
 }
+
+jQuery(window).load(function() {
+    $('.carousel').carousel('pause');
+});
