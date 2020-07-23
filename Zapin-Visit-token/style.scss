@@ -1,0 +1,121 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('assets/visitor_backend.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    width: 75%;
+    margin: auto;
+    .mb-15 {
+        margin-bottom: 15px;
+    } 
+    .single-form {
+        background: white;
+        display: none;
+        border-radius: 4px;
+        div {
+            position: relative;
+            animation-name: move;
+            animation-duration: 1s;
+            @keyframes move {
+                0% { left: 60%; }
+                50% { left: 30%; }
+                100% { left: 0%; }
+            }
+        }
+    }
+    .active {
+        display: block;
+    }
+    .personal-info {
+        .single-form-element {
+            margin: 20px 15px;
+            div {
+                margin-bottom: 5px;
+                label {
+                    font-size: 12px;
+                    .asterisk {
+                        color: #d55454;
+                    }
+                }
+            }
+            input {
+                width: 97.5%;
+                padding-left: 5px;
+                &::placeholder {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .nxtBtnOne {
+        margin-left: 90%;
+    }
+    .prevBtn {
+        margin-left: 1%;
+    }
+    .nxtBtnCommon {
+        margin-left: 81%;
+    }
+    .btn {
+        cursor: pointer;
+        background: #0cd1e8;
+        padding: 8px;
+        border-radius: 6px;
+        outline: none;
+        border: none;
+        color: white;
+        width: 8%;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    }
+    .d1 {
+        text-align: center;
+        padding: 20px 0;
+        text-transform: uppercase;
+    }
+    .photo-capture {
+        margin: 15% auto 18% auto;
+        .photo-capture-section {
+            text-align: center;
+            img {
+                width: 13%;
+                border: 1px solid #eaeaea;
+                padding: 12px;
+                border-radius: 6px;
+                -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+            }
+        }
+    }
+    .signature-section {
+        margin: 5% auto 14% auto;
+        .inner-signature-section {
+            text-align: center;
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+            padding-top: 15px;
+            margin: 15px 10px;
+            border-radius: 6px;
+        }
+    }
+    .terms-conditions-section {
+        margin: 9% auto 20% auto;
+        .terms-conditions {
+            padding: 0 15px;
+            div {
+                text-align: justify;
+            }
+        }
+    }
+    #myCanvas {
+        border: 1px dashed #c8b4b4;
+        width: 45%;
+    }
+}

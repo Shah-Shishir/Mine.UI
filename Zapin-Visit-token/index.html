@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapin Visitor Visit Token</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- First Slider -->
+        <div class="single-form active personal-info">
+            <div>
+                <div class="d1">
+                    Create Visit Token
+                </div>
+                <div class="single-form-element">
+                    <div>
+                        <label for="first-name">Type Your First Name <span class="asterisk">*</span></label>
+                    </div>
+                    <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                </div>
+                <div class="single-form-element">
+                    <div>
+                        <label for="last-name">Type Your Last Name <span class="asterisk">*</span></label>
+                    </div>
+                    <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                </div>
+                <div class="single-form-element">
+                    <div>
+                        <label for="email">Type Your Email</label>
+                    </div>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="single-form-element">
+                    <div>
+                        <label for="address">Address <span class="asterisk">*</span></label>
+                    </div>
+                    <input type="text" name="address" id="address" placeholder="Address" required>
+                </div>
+                <div class="single-form-element">
+                    <div>
+                        <label for="phone">Phone Number <span class="asterisk">*</span></label>
+                    </div>
+                    <input type="text" name="phone" id="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="single-form-element">
+                    <div>
+                        <label for="sex">Sex <span class="asterisk">*</span></label>
+                    </div>
+                    <input type="text" name="sex" id="sex" placeholder="Sex" required>
+                </div>
+                <div class="single-form-element">
+                    <div>
+                        <label for="person">Select Your Knowing Person <span class="asterisk">*</span></label>
+                    </div>
+                    <input list="persons" name="person" id="person">
+                    <datalist id="persons">
+                        <option value="Adam Smith">
+                        <option value="Adam Jems">
+                        <option value="Nazrul Islam">
+                        <option value="Mahamub Zico">
+                        <option value="Tanvir Pias">
+                        <option value="Shah Shishir"></option>
+                    </datalist> 
+                </div>
+                <button class="btn nxtBtnOne" onclick="goToNextSection(event)">
+                    Next <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Second Slider -->
+        <div class="single-form photo-capture">
+            <div>
+                <div class="d1">
+                    Photo capture
+                </div>
+                <div class="photo-capture-section">
+                    <img src="assets/photo-camera-outline.png" alt="">
+                </div>
+                <button class="btn prevBtn" onclick="goToPrevSection(event)">
+                    <i class="fa fa-arrow-left"></i> Prev
+                </button>
+                <button class="btn nxtBtnCommon" onclick="goToNextSection(event)">
+                    Next <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Third Slider -->
+        <div class="single-form signature-section">
+            <div>
+                <div class="d1">
+                    Signature
+                </div>
+                <div class="inner-signature-section">
+                    <div>
+                        <canvas id="myCanvas"></canvas>
+                    </div>
+                    <button class="btn" style="background: green;">CLEAR</button>
+                    <button class="btn" style="background: red;">DONE</button>
+                </div>
+                <button class="btn prevBtn" onclick="goToPrevSection(event)">
+                    <i class="fa fa-arrow-left"></i> Prev
+                </button>
+                <button class="btn nxtBtnCommon" onclick="goToNextSection(event)">
+                    Next <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Fourth Slider -->
+        <div class="single-form terms-conditions-section">
+            <div>
+                <div class="d1">
+                    Terms and conditions
+                </div>
+                <div class="terms-conditions">
+                    <div class="mb-15">
+                        Not everyone knows how to make a Privacy Policy agreement. If you are not a lawyer or someone who is familiar to 
+                        Privacy Policies, you will be clueless. Some people might even take advantage of you because of this. Some people 
+                        may even extort money from you. These are some examples that we want to stop from happening to you. We will help 
+                        you protect yourself. Our Privacy Policy Generator can help you make sure that your business complies with the 
+                        law as well as your customers. We are here to help you protect your business, yourself and your customers. Fill
+                        in the blank spaces below and we will send you, via email, a personalized website Privacy Policy for your 
+                        business. Small remark when filling in this Privacy Policy generator: Not all parts of this Privacy Policy 
+                        might be applicable to your website. When there are parts that are not applicable, these can be removed. Optional 
+                        elements can be selected in step 2. The accuracy of the generated Privacy Policy on this website is not legally 
+                        binding. Use at your own risk.
+                    </div>
+                    <div class="mb-15"> 
+                        <label for="accept">
+                            <input type="checkbox" name="accept" id="accept">
+                            Accept Terms & Condition
+                        </label>
+                    </div>
+                </div>
+                <button class="btn prevBtn" onclick="goToPrevSection(event)">
+                    <i class="fa fa-arrow-left"></i> Prev
+                </button>
+                <button class="btn nxtBtnCommon" id="lastBtn" onclick="goToNextSection(event)" disabled>
+                    Next <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="sign.js"></script>
+</body>
+</html>
