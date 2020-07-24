@@ -7,16 +7,21 @@ body {
   background-color: #eaeaea !important;
 }
 
+.helper {
+  height: 100%;
+  display: grid;
+}
+
+.m-auto {
+  margin: auto;
+}
+
 .wrapper .mb-15 {
   margin-bottom: 15px;
 }
 .wrapper .single-form {
   background: white;
   border-radius: 4px;
-}
-.wrapper .personal-info {
-  width: 75%;
-  margin: 20px auto;
 }
 .wrapper .personal-info .single-form-element {
   margin: 20px 15px;
@@ -79,10 +84,6 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-.wrapper .photo-capture {
-  width: 75%;
-  margin: 180px auto;
-}
 .wrapper .photo-capture .photo-capture-section {
   text-align: center;
 }
@@ -94,20 +95,12 @@ body {
   border-radius: 6px;
   -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
-.wrapper .signature-section {
-  width: 90%;
-  margin: 180px auto;
-}
 .wrapper .signature-section .inner-signature-section {
   text-align: center;
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   padding-top: 15px;
   margin: 20px 15px;
   border-radius: 6px;
-}
-.wrapper .terms-conditions-section {
-  width: 75%;
-  margin: 5px auto;
 }
 .wrapper .terms-conditions-section .terms-conditions {
   padding: 0 15px;
